@@ -2,22 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>演唱会查询系统</title>
+    <title>Embedded Concert Website</title>
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
         .content {
-            display: flex;  /* 使用flex布局 */
-            align-items: center; /* 垂直居中对齐 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px; /* 给图片和文字之间增加一些间距 */
         }
         .content img {
-            margin-right: 10px; /* 图片和文本之间的间距 */
+            width: 100px; /* 调整图片大小 */
+            height: auto;
+            margin: 0 10px; /* 图片和文字之间的间距 */
+        }
+        h3 {
+            margin: 0;
+            font-size: 20px;
+            font-weight: normal;
         }
     </style>
 </head>
 <body>
-    <!-- 使用flex布局并排显示图片和文字 -->
+    <!-- 显示图片和文字并居中对齐 -->
     <div class="content">
-        <img src="微信图片1.jpg" alt="Concert Image" style="width: 200px; height: auto;">
-        <h3>加我微信好友进行付款</h3>
+        <h3>想看演唱会，加我vx</h3>
+        <img src="微信图片1.jpg" alt="Concert Image">
     </div>
 
     <!-- 嵌入外部网页 -->
